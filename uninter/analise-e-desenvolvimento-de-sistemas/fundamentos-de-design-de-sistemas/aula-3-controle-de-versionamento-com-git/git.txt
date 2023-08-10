@@ -1,0 +1,49 @@
+O git é uma ferramenta de versionamento de arquivos. É amplamente utilizado no desenvolvimento de software, pois,
+permite um controle absoluto sobre toda alteração feita no software. Suas funcionalidades incluem:
+
+- Rastreabilidade: é possível manter uma linha cronológica de todas as alterações feitas em um projeto. O que também
+possibilita revertê-las.
+
+- Backup: mantém salveas todas as alterações, ainda que sua máquina venha a falhar
+
+- Trabalho simultâneo: possibilita várias pessoas trabalharem no mesmo projeto ao mesmo tempo, sem que uma atrapalhe o
+trabalho da outra.
+
+- Integração contínua: permite automatizar testes, compilação, implatação, etc...
+
+Tudo isso é possível por meio da criação de um repositório git, que, nada mais é do que uma pasta que contém todos os
+arquivos e diretórios que se deseja versionar.
+
+Criar repositório git: git init (-y)
+
+Configurações:
+- git config --global user.name 'nome_usuario'
+- git config --global user.email 'emailrepo@remoto.com'
+- git config -list
+
+USO:
+
+git add - adiciona arquivos e/ou pastas ao arquivo temporário index, preparando-os para o arquivo head
+
+git commit -m "msg commit" - grava os arquivos do index no arquivo HEAD, tornando as mudanças permanentes e rastreáveis no
+repositório local.
+
+git log - monstra histórico de commits
+
+git revert  - reverte alterações commitadas:
+
+  git --soft file/dir-name: retorna ao estado imediato anterior ao commit
+  git --mixed file/dir-name: retorna ao estado antes do commit e do git add
+  git --hard file/dir-name: retorna ao estado anterior ao commit ao add e os APAGA.
+
+git diff arquivo/pasta ou commit arquivo ou commit1 commit2 - mostra diferenças entre arquivos, commits 
+
+git push -u repo-remoto nome-branch - empurra/envia as alterações registradas no HEAD para um repositório remoto
+
+3. Recuperar uma versão antiga de um arquivo:
+
+$ git checkout <hash-do-commit> <nome-do-arquivo>
+
+4. Desfazer alterações em um arquivo:
+
+$ git checkout -- <nome-do-arquivo> 
