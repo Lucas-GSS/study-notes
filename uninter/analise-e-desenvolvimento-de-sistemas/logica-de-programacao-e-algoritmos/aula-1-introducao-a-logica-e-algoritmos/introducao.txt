@@ -1,0 +1,24 @@
+Lógica se origina de logos, conceituada inicialmente por Aristóteles. Seu significado é: linguagem racional.
+No contexto da computação, lógica é a forma como organizamos racionalmente a estrutura de nossos algoritmos.
+
+Algoritmos são uma sequencia de passos para se atingir um resultado/objetivo. Na computação, algoritmos são
+instruções escritas em uma linguagem de programação de maneira lógica, finita e organizada para resolver um problema.
+
+Todo algoritmo que escrevemos para um computador, pressupõe que este siga a arquitetura de Von Neumann.
+Ele foi matemático que contribuiu para várias áreas do conhecimento, inclusive a computação. Ele propôs a arquitetura
+que temos até hoje nos computadores mais modernos. Esta arquitetura consiste em:
+
+- Linguagem binária: o computador é habilitado a entender essa linguagem baseada em apenas 2 valores: 0 e 1.
+
+- Memória RAM: memória responsável por guardar o programa
+
+- Unidade de cálculos de Lógica e Aritmética(ULA): realiza os calculos booleanos e aritméticos
+
+- Registradores: temporária de alta velocidade que guarda o resultados dos cálculos da ULA
+
+- Entrada/Saida de dados: meios de inserir informações no computador e a capacidade de devolver os resultados
+do processamento
+
+- Unidade de Controle(UC): busca instruções na memómria e as encaminha para a ULA
+
+- Contador de Programa: calcula qual a próxima instrução a ser processada
