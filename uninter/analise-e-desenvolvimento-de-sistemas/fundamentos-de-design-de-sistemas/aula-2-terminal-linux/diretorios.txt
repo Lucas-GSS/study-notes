@@ -1,0 +1,36 @@
+O linux tem uma estrutura rígida e bem definida de diretórios.
+ 
+/ é o diretório raiz, e a partir dele temos acesso a todos os demais diretórios, cujos principais são:
+
+/bin - onde ficam os arquivos binários executáveis. Basicamente onde estão os programas que o sistema e o usário comumente
+usam. Qaundo um comando é executado no terminal, é lá onde o sistema busca o executável do comando.
+
+/boot - onde se encontram os arquivos necessários para o processo de inicialização do sistema. É onde está o kernel,
+drivers, configurações, etc.
+
+/dev - onde estão os arquivos de dispositivo que representam cada elemento do hardware, como: periféricos, disco rígido,
+RAM, etc... ar partições do disco ficam em dev/sda e os removíveis em /dev/sdc
+
+/etc - onde ficam arquivos de configurações gerais do sistema e de aplicativos, como: login, usuários, autenticação,
+configurações de rede, etc...
+
+/home - onde ficam os diretórios pessoais dos usuários do sistema, como: fotos, arquivos, softwares, etc... cada usuário
+tem uma pasta correspondente em /home
+
+
+É importante mencionar também o apt(Advanced Package Tool), gerenciador de pacotes de distros Debian.
+Ele permite instalar, atualizar, remover e gerenciar de forma geral pacotes de software em distros Debian.
+
+apt update - checa o arquivo /etc/apt/sources.list buscando por atualizações no respositórios dos pacotes instalados.
+É sempre importante rodar esse comando para que o apt esteja ciente do que está ou não instalado localmente.
+Caso falte algo ele saberá que precisará providenciar a instalação
+
+apt install - instala o pacote desejado
+
+apt upgrade -  atualiza os pacotes que têm atualizações disponíveis no repositório oficial correspondente
+
+apt search pacote - procura pacote no sources.list
+
+apt remove - remove o programa, mas mantém arquivos de configurações se houverem.
+
+apt-get --purge - remove o programa e quaisquer arquivos extras relacionados a ele
