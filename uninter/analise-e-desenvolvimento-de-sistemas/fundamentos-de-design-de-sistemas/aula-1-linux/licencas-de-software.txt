@@ -1,0 +1,31 @@
+
+- Lincenças de software são contratos que determinam como um produto de software pode ser utilizado. Quem pode utilizar,
+como pode ser utilizado, como será distribuído, se pode ser modificado, se o código-fonte pode ser acessado, etc...
+
+
+
+Software Livre - esta licença estabelece que o software deve ter seu código-fonte aberto para todos, e dá a liberdade de
+modificação, redistribuição do software modificado e o uso arbitrário. Não é necessariamente gratuito, mas garante a
+liberdade de ser usado e modificado. Garante também que  a redistribuição dele seguirá a mesma filosofia. Ex.: linux, gnu
+
+Open Source - o código-fonte é aberto para acesso e também para modificação de forma colaborativa. Ou seja, é permitido
+modificações que evoluam o software, que o melhorem. Muitos softwares seguem essa licença e criam comunidades mundiais
+que colaboram gratuitamente para a evolução do software, como é o MySQL Workbench, NodeJs, etc...
+
+Copyleft - esta licença garante que os softwares que derivam de um outro software siga a licença do original, seja ela 
+qual for.
+
+Freeware - software que permite o uso gratuito das funcionalidades permanentemente. Ex.: Firefox, Chrome, NotePad, etc...
+
+
+Shareware - permite o uso gratuito de todas as funcionalidades por um período de teste. Depois é reduzido o acesso
+aos recursos, podendo retomar mediante pagamento. Ex.: Mobills,
+
+
+Proprietário - software que só pode ser usado, distribuído e modificado por quem o criou, pelo seu proprietário. O uso de
+terceiros só se da por meio de pagamento de licença, e permite somente o uso. Ex.: Pacote Office, Windows, etc..
+
+
+SaaS - software que é acessado pela internet e fornece algum serviço, seja streaming de música e/ou vídeo, nuvem, etc...
+Ex.: Netflix, Spotify, AWS
+

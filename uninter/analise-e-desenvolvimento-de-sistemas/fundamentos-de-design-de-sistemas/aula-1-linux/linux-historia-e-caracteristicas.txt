@@ -1,0 +1,37 @@
+Na década de 60 uma equipe da AT&T no laboratório Bells começa um trabalho de pesquisa e desenvolvimento de algo
+que hoje conhecemos como Sistema Operacional.
+Até então, os computadores eram gigantes, ocupavem cômodos inteiros e suas operações eram realizadas manualmente
+por técnicos operando alavancas no hardware.
+
+Em 1969 é lançado o revolucionário Unix, primeiro sistema operacional completo da história. Se torna um marco para a
+computação, por trazer recursos como: suporte a multi-tarefas e multi-usuários, suporte a conexão com a rede,
+portabilidade, ou seja, funcionava em diferentes arquiteturas de hardware, o que permitia a comunicação entre computadores.
+
+A aceitação foi imediata, e a distribuição se deu principalmpente em universidades. Devido ao sucesso, a empresa logo
+tratou de torná-lo um software proprietário. Portanto o código fonte não poderia mais ser acessado ou modificado por
+terceiros. Mas com base nos recursos que o Unix trouxe, várias empresas no decorrer das décadas começaram a tentar
+desenvolver seus SO's, entre elas: Microsoft, Apple, IBM, etc... 
+
+Em 83, Richard Stallman inicia o projeto GNU, que tinha como objetivo construir um SO completo baseado na filosofia do
+Software Livre. Esta diz que o software deve ser de livre acesso ao código fonte, além de livre para modificação, 
+distribuição e uso. Em 85 ele lança a Free Software Foundation (FSF). O projeto GNU carecia de um kernel para ser um SO
+completo. Porém, a equipe nele envolvida estava com dificuldades para desenvolver um.
+Até tinham um em desenvolvimento, à época o Hurd.
+
+Em 91, um estudante de Helsinque, Linus Torvalds, desenvolve um kernel baseado no Unix e o chama de Linux.
+A ideia era ser um software livre, simples, seguro e funcional. Despretenciosamente ele o publica na comunidade,
+o potencial do kernel é notado e ele começa a ganhar melhorias de outros devs. Eventualmente chega aos devs do projeto GNU.
+Agora eles tinham tudo o que precisavam para ter o seu SO completo. Assim nasceu o Linux que temos hoje. Ou melhor,
+GNU/Linux.
+
+Nem todas as distribuições Linux usam GNU como softwares adicionais, algumas usam outros softwares livres para formar o
+SO completo e assim temos várias opções para diferentes necessidades. Algumas das principais distribuições são:
+Fedora, OpenSue, e...
+Debian - lançado em 93 projetado para ser seguro, estável, simples e popular. É uma das distribuições GNU/Linux e
+tem apt como gerenciador de pacotes, que torna simples a instalação, atualização e remoção de pacotes de software.
+Dele derivam o Ubuntu, Mint, Kurumin...
+
+O processo de inicialização do Linux, se dá da seguinte forma:
+
+Botão Power -> firmware(BIOS Basic Input/Output System)/POST(Power On Self Test)/MBR(Master Boot Record) ->
+Bootloader(GRUB, UEFI, etc...) -> kernel(sistemas de arquivo, Shell, GUI);
