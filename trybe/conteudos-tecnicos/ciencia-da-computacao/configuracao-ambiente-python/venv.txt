@@ -1,0 +1,5 @@
+venv é a ferramenta para criar ambientes isolados para projetos em python. Como ele, eu isolo o ambiente de um aplicação
+impedindo que versões diferentes das mesmas bibliotecas em projetos distintos afetem o funcionamento uma da outra.
+
+Instalar venv: sudo apt install python3-venv
+Abrir menu de ajuda: pyhton3 -m venv -h

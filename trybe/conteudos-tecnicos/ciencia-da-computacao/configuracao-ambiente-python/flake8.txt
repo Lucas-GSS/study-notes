@@ -1,0 +1,9 @@
+Flake8 é o analisador estático de códigos python. Ele aponta erros de sintaxe, algoritmos muito complexos e quaisquer
+práticas que estão fora do estilo padrão de desenvolvimento pyhton, o PEP-8.
+
+Instalar: sudo pyhton3 -m pip install flake8
+
+Habilitar no VSCode:
+  abra a paleta de comandos (ctrl + shift + P) e selecione o comando Python: Select Linter. O comando Select Linter
+  adiciona "python.linting.<linter>Enabled": true às suas configurações, onde <linter> é o nome do linter selecionado,
+  nesse caso o flake8.

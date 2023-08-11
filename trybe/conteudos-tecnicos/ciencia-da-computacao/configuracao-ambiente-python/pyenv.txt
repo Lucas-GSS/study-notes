@@ -1,0 +1,19 @@
+
+O pyenv serve para alternar entre as diferentes versões do pyhton facilmente. Assim como o nvm no Node.
+
+Instalar pyenv: curl https://pyenv.run | bash. Em seguida reiniciar o terminal: exec $SHELL
+
+Acessar o arquivo .bashrc (ou .zshrc, se você usa zsh/ohmyzsh): nano ~/.bashrc
+
+Se as seguintes linhas não estiverem no arquivo, adicionea-as ao final:
+  export PYENV_ROOT="$HOME/.pyenv"
+  export PATH="$PYENV_ROOT/bin:$PATH"
+  if command -v pyenv 1>/dev/null 2>&1; then
+    eval "$(pyenv init --path)"
+  fi
+por fim, verifique a instalação: pyenv
+
+Para instalar uma versão: pyenv install 3.9.1
+Tornar uma versão global do sistema: pyenv global 3.9.1
+Verificar a global: pyenv global
+Listar versões baixadas: pyenv versions

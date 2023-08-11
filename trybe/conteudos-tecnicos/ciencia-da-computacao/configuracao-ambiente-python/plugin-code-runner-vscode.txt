@@ -1,0 +1,20 @@
+Permite rodar códigos e trecho de códigos em mais de 30 linguagens de programação diferentes.
+
+Abra o VS Code Quick Open (Ctrl+P), cole o comando a seguir e pressione enter.
+
+ext install formulahendry.code-runner
+
+Após instalar a extensão, digite ctrl + shift + p, ou cmd + shift + p no MacOS, vá em Preferences:
+Open Settings (JSON) e acrescente as seguintes configurações.
+
+// ...
+
+    "code-runner.executorMap": {
+        "python": "python3 -u"
+    },
+    "code-runner.runInTerminal": true,
+
+// ...
+
+Escreva um pequeno código como print("Olá Mundo") e apertando ctrl + alt + N
+

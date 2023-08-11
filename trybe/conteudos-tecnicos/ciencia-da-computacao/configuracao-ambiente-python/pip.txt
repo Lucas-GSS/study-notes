@@ -1,0 +1,7 @@
+Pip é o gerenciador de pacotes do pyhton. É como ele que instalamos bibliotecas e depências. Análogo ao npm no Node.
+
+Instalar Pip: sudo apt install python3-pip
+
+Verificar versão: python3 -m pip --version
+
+Instalar uma biblioteca: pyhton3 -m pip install fastapi=0.43.0

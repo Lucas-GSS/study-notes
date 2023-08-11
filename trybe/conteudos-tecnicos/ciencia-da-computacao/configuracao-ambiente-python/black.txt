@@ -1,0 +1,5 @@
+Formatador de códigos do pyhton. ctrl + shift + i
+
+Instalação: sudo python3 -m pip install black
+
+Verficar instalação: python3 -m black --version
