@@ -1,0 +1,33 @@
+Arquitetura de software é um conceito abstrato, é relacionado ao projetop de estrutura e organização de um software.
+O conceito começou a ser trabalhado na década de 60 por cientistas, que perceberam a necessidade de planejar um software 
+antes de implantá-lo. Porém na década de 9, com o livro Software Arch: Perspectives On a Emerging Discipline
+que começou a ser formalmente estruturada.
+
+A Arquitetura de software visa definir os componentes de uma aplicação, como serão organizados, como será a 
+comunicação entre eles, quais serão as responsabilidades de cada um. Uma boa arquitetura, permite que esses elementos
+possam evoluir independentemente uns dos outros, ou seja, que eles tenham baixo acoplamento. Isso garante escalabilidade,
+testabilidade e segurança na evolução iminente do software. Ela visa a atender os objetivos do negócio,
+restrições(tamanho e skills do time, orçamento, tecnologias, gestão legado, etc...) e 
+atender atributos de qualidade(escala, diponibilidade, segurança, manutenibilidade, etc...)
+
+A arquitetura traz padrões de projetos, estes por sua vez, orientam a tomada de decisão das diferentes equipes que
+trabalham no software, garantindo assim que todos sigam a mesma estratégia. Dada a quantidade crescente de soluções
+que dispomos, esses padrões direcionam para decisões assertivas no dia a dia, considerando os trade off's no contexto
+da aplicação desenvolvida.
+
+O papel do arquiteto de software é orquestrar tudo isso e garantir que as práticas arquiteturais sejam seguidas.
+Precisa ter perfil técnico e saber tratar com devs e executivos, ouvindo demandas de todos os lados e trabalhando para
+chegar num denominador comum.
+
+Tão importante quanto montar arquitetura e implmentar, é documentar a arquitetura. Essa documentação serve como contrato
+para a evolução e manutenibilidade do software, e serve como um livro que conta a história do software, porque ele foi
+feito, como funciona e porque funciona assim. Existe a norma ISO/IEC/IEEE 42010:2011, que define como deve ser feita a
+documentação do software. Ela define 4 visões a serem comtempladas pela documentação:
+
+- Lógica: descreve funcionalidades do sistema
+
+- Desenvolvimento: estrutura do software e seus componentes. Um guia para devs que trabalham no software.
+
+- Processo: visão da dinâmica do sistema, execução de tarefas, sincronia, ...
+
+- Física: infraestrutura necessária para o software funcionar(hardware, rede, outros softwares, ...)
