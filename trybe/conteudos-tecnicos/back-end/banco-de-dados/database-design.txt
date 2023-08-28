@@ -1,0 +1,38 @@
+Identificar quais são as Entidades, Atributos e seus relacionamentos.
+
+1- Entidade: é a respresentação de algo do mundo real. É a abstração de um objeto real que será armazenado no banco na
+estrutura de uma tabela. Ex.: o problema é armazenar um album de músicas no banco de dados. As entidades seriam: o álbum,
+as músicas, artistas, gravadora, etc...
+
+2- Atributos: características das entidades, propriedades que elas possuem. Ex.: o artista/banda tem atributos como: nome,
+estilo musical, albuns lançados, etc... o album possui músicas, data de lançamento, preço, artista, etc...
+
+3- Relacionamentos: como uma entidade/tabela se relaciona com outra. Ex.: cada album pertence a um artista/banda, porém
+a banda/artista pode possuir vários àlbuns, temos portanto um relacionamento 1:N.
+
+DIAGRAMA ENTIDADE-RELACIONAMENTO(ER)
+
+- Podemos representar graficamente as Entidade, Atributos e Relacionamentos identificados para a solução do problema.
+Isso é feito por um Diagrama ER.
+
+
+NORMALIZAÇÃO
+
+- Técnica que visa diminuir ao máximo redundancia dos dados. Redundancia essa que causa anomalias de inserção, atualização,
+exclusão e recuperação dos dados. A normalização é feita dividindo as entidades em tabelas.
+
+-  Isso traz integridade dos dados, evita uso desnecessário de espaço no banco
+
+1ª Forma normal: tabelas escaláveis e extensíveis(tolera mudanças). Regras:
+ 
+ * colunas devem possuir somente 1 valor;
+ * colunas devem possuir valores do mesmo tipo;
+ * colunas devem possuir nomes únicos;
+ * a ordem dos dados nao pode afetar a integridade dos mesmos();
+
+2ª Forma Normal: estar na 1ª forma normal e não possuir dependências parciais, ou seja, se uma coluna pode estar em outra
+tabela, ela deve ir para outra tabela.
+
+
+3ª Forma Normal: estar na 1ª e 2 ª forma normal e não possuir colunas que não sejam totalmente dependentes da PK.
+
