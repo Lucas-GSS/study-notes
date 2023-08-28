@@ -1,0 +1,43 @@
+Don Norman em 1988 lançou o livro 'The Design Of Everyday Things', e em 90 trabalhou Apple e cunhou o termo UX.
+Basicamente ele já defendia que o software deveria ser facil e simples, e a solução deveria ser pensada para evitar
+ao máximo conflitos, contratempos e dificuldades na usabilidade.
+
+UX trata da experiência do usuário com o produto. Não só o uso do produto em si, mas desde o momento em que ele toma
+conhecimento do produto, sua experiência ao adquirir, se cadastrar, explorar as funcionalidades, suporte à dúvidas e 
+eventuais contratempos. O UX é generalista, e se preocupa com toda a interação do usuário com o produto.
+
+Geralmente, para se desenvolver uma solução ideal usa-se o diagrama da viabilidade, capacidade técnica e desejabilidade:
+
+- viabilidade: o produto atende às necessidades dos usuários, é financeiramente viável, sustentável e gera receitas
+
+- capacidade técnica: dispor das tecnologias e conhecimentos necessários para a implementação do produto
+
+- desejabilidade: o produto é bem visto e desejado pelos usuários, resolve seu problema, é simples e fácil de usar;
+
+UI faz parte da UX e se concentra especificamente na interação do usuário com o produto, com o uso diário. Seu objetivo
+é deixar a inteface o mais simples, intuitiva e agradável possível, o que frequentemente é o que determina o sucesso ou
+fracasso de um produto em detrimento de outro.
+
+Mas como desenvolver soluções tão precisamente centradas no usuário? Basicamente, perguntando pra eles.
+
+Entrevistas, perguntas abertas, escuta ativa são elementos fundamentais para obter do próprio usuário o que ele espera
+do produto, quais as dificuldades ele tem com produtos similares, quais suas dores, frustrações, motivações. Isso é
+crucial para guiar o desenvolvimento da solução.
+
+Solução esta que geralmente é composta pela contribuição de profissionais de várias àreas pensando e elaborando juntos
+alternativas para resolução do problema. Isto geralmente é feita com técnicas como brainstorming, crazy 8's, etc...
+No fim das contas, todas elas estimulam compartilhamento de ideias entre profissionais de diferentes setores, sem 
+julgamentos ou restrições, em seguida vem uma análise a fim de eliminar as ideias repetidas, inviáveis, mesclar as 
+semelhantes e levar para uma última etapa de discussão as melhores.
+
+Feito o processo de ideação, entra a fase de prototipação. O protótipo é a matearilização das ideias geradas. É tornar
+as abstrações em algo concreto e palpável, visando maior clareza e compreensão da viabilidade da ideia.
+
+A prototipação pode ser de diferentes níveis de fidelidade:
+
+- baixa: esboços em folhas de papel, desenhos simples, diagramas, etc... algo rápido, feito para visualizar a ideia
+
+- média: wireframes, telas, botões, cores, tec... algo mais elaborado que mostre as telas do app, o fluxo de uso, cores,
+tipografia, etc...
+
+- alta: quase que um MVP. Dá uma noção clara do uso do produto, funcionalidades, navegação, etc...
